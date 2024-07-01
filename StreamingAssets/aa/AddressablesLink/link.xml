@@ -1,0 +1,156 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ECdestroyMe" preserve="all" />
+    <type fullname="ECparticleColorChangerMaster" preserve="all" />
+    <type fullname="ECS.Damageable.Providers.Damage" preserve="all" />
+    <type fullname="ECS.Damageable.Providers.Health" preserve="all" />
+    <type fullname="ECS.GameEntities.Providers.Accuracy" preserve="all" />
+    <type fullname="ECS.GameEntities.Providers.Automatic" preserve="all" />
+    <type fullname="ECS.GameEntities.Providers.Bullets.BulletComponent" preserve="all" />
+    <type fullname="ECS.GameEntities.Providers.EcsCar" preserve="all" />
+    <type fullname="ECS.GameEntities.Providers.FOV" preserve="all" />
+    <type fullname="ECS.GameEntities.Providers.LifeTime" preserve="all" />
+    <type fullname="ECS.GameEntities.Providers.Loops.FixedUpdate" preserve="all" />
+    <type fullname="ECS.GameEntities.Providers.Loops.Update" preserve="all" />
+    <type fullname="ECS.GameEntities.Providers.MassWeapon" preserve="all" />
+    <type fullname="ECS.GameEntities.Providers.Money" preserve="all" />
+    <type fullname="ECS.GameEntities.Providers.SemiAutomatic" preserve="all" />
+    <type fullname="ECS.GameEntities.Providers.WeaponComponent" preserve="all" />
+    <type fullname="ECS.MovementBehaviour.Providers.Acceleration" preserve="all" />
+    <type fullname="ECS.MovementBehaviour.Providers.Direction" preserve="all" />
+    <type fullname="ECS.MovementBehaviour.Providers.DistanceFromPlayer" preserve="all" />
+    <type fullname="ECS.MovementBehaviour.Providers.ForwardOnly" preserve="all" />
+    <type fullname="ECS.MovementBehaviour.Providers.MovableRigidbody" preserve="all" />
+    <type fullname="ECS.MovementBehaviour.Providers.MovableTransform" preserve="all" />
+    <type fullname="ECS.MovementBehaviour.Providers.MoveSpeed" preserve="all" />
+    <type fullname="ECS.MovementBehaviour.Providers.RotateSpeed" preserve="all" />
+    <type fullname="ECS.MovementBehaviour.Providers.StopDistance" preserve="all" />
+    <type fullname="Game.AI.AIGeneratorConfig" preserve="all" />
+    <type fullname="Game.Bullets.Bang" preserve="all" />
+    <type fullname="Game.Bullets.BigBang" preserve="all" />
+    <type fullname="Game.Bullets.Buckshot" preserve="all" />
+    <type fullname="Game.Bullets.Rocket" preserve="all" />
+    <type fullname="Game.Bullets.RocketShot" preserve="all" />
+    <type fullname="Game.Bullets.SmallBang" preserve="all" />
+    <type fullname="Game.Cars.Car" preserve="all" />
+    <type fullname="Game.Cars.CarSpawnConfig" preserve="all" />
+    <type fullname="Game.Collide" preserve="all" />
+    <type fullname="Game.Levels.Environment" preserve="all" />
+    <type fullname="Game.Levels.Level" preserve="all" />
+    <type fullname="Game.Levels.LevelSpawnConfig" preserve="all" />
+    <type fullname="Game.Loots.HealthBox" preserve="all" />
+    <type fullname="Game.Loots.LootSpawnConfig" preserve="all" />
+    <type fullname="Game.Loots.MoneyBox" preserve="all" />
+    <type fullname="Game.VFXs.Bullets.BangVFX" preserve="all" />
+    <type fullname="Game.VFXs.Bullets.BigBangVFX" preserve="all" />
+    <type fullname="Game.VFXs.Bullets.SmallBangVFX" preserve="all" />
+    <type fullname="Game.Weapons.Aim" preserve="all" />
+    <type fullname="Game.Weapons.Bullets.Bullet" preserve="all" />
+    <type fullname="Game.Weapons.Bullets.BulletGauss" preserve="all" />
+    <type fullname="Game.Weapons.Weapon" preserve="all" />
+    <type fullname="Game.Weapons.WeaponSpawnConfig" preserve="all" />
+    <type fullname="Main.Store.StoreConfig" preserve="all" />
+    <type fullname="Pools.PoolConfig" preserve="all" />
+    <type fullname="ShakeBody" preserve="all" />
+    <type fullname="UIs.HealthBarUI" preserve="all" />
+    <type fullname="ECS.Damageable.Components.Damage" preserve="nothing" serialized="true" />
+    <type fullname="ECS.Damageable.Components.Health" preserve="nothing" serialized="true" />
+    <type fullname="ECS.GameEntities.Bullets.BulletComponent" preserve="nothing" serialized="true" />
+    <type fullname="ECS.GameEntities.CarComponent" preserve="nothing" serialized="true" />
+    <type fullname="ECS.GameEntities.Fov" preserve="nothing" serialized="true" />
+    <type fullname="ECS.GameEntities.LifeTime" preserve="nothing" serialized="true" />
+    <type fullname="ECS.GameEntities.Money" preserve="nothing" serialized="true" />
+    <type fullname="ECS.GameEntities.Weapons.Accuracy" preserve="nothing" serialized="true" />
+    <type fullname="ECS.GameEntities.Weapons.WeaponComponent" preserve="nothing" serialized="true" />
+    <type fullname="ECS.MovementBehaviour.Components.Accel" preserve="nothing" serialized="true" />
+    <type fullname="ECS.MovementBehaviour.Components.DistanceFromPlayer" preserve="nothing" serialized="true" />
+    <type fullname="ECS.MovementBehaviour.Components.MoveSpeed" preserve="nothing" serialized="true" />
+    <type fullname="ECS.MovementBehaviour.Components.RigidBody" preserve="nothing" serialized="true" />
+    <type fullname="ECS.MovementBehaviour.Components.RotateSpeed" preserve="nothing" serialized="true" />
+    <type fullname="ECS.MovementBehaviour.Components.StopDistance" preserve="nothing" serialized="true" />
+    <type fullname="ECS.MovementBehaviour.Components.TransForm" preserve="nothing" serialized="true" />
+    <type fullname="ECparticleColorChangerMaster/colorChange" preserve="nothing" serialized="true" />
+    <type fullname="Game.Cars.CarItem" preserve="nothing" serialized="true" />
+    <type fullname="Game.Levels.LevelItem" preserve="nothing" serialized="true" />
+    <type fullname="Game.Loots.LootItem" preserve="nothing" serialized="true" />
+    <type fullname="Game.Weapons.WeaponItem" preserve="nothing" serialized="true" />
+    <type fullname="Pools.PoolableConfig" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Cinemachine.Cinemachine3rdPersonAim" preserve="all" />
+    <type fullname="Cinemachine.Cinemachine3rdPersonFollow" preserve="all" />
+    <type fullname="Cinemachine.CinemachineComposer" preserve="all" />
+    <type fullname="Cinemachine.CinemachinePipeline" preserve="all" />
+    <type fullname="Cinemachine.CinemachineVirtualCamera" preserve="all" />
+    <type fullname="Cinemachine.CinemachineBrain/VcamActivatedEvent" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.CinemachineVirtualCameraBase/TransitionParams" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.LensSettings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Scellecs.Morpeh, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Scellecs.Morpeh.Providers.EntityProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[Main.BaseGo]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[Main.CollideEvent]" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIElementsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UIElements.PanelSettings" preserve="all" />
+    <type fullname="UnityEngine.UIElements.StyleSheet" preserve="all" />
+    <type fullname="UnityEngine.UIElements.ThemeStyleSheet" preserve="all" />
+    <type fullname="UnityEngine.UIElements.UIDocument" preserve="all" />
+    <type fullname="UnityEngine.UIElements.VisualTreeAsset" preserve="all" />
+    <type fullname="UnityEngine.UIElements.DynamicAtlasSettings" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.Label/UxmlFactory" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.StyleComplexSelector" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.StyleProperty" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.StyleRule" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.StyleSelector" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.StyleSelectorPart" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.StyleSheet/ImportStruct" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.StyleSheets.Dimension" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.StyleSheets.ScalableImage" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.StyleValueHandle" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.UxmlRootElementFactory" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.VisualElement/UxmlFactory" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UIElements.VisualElementAsset" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>
